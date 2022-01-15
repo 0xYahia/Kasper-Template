@@ -695,6 +695,13 @@ section .serv-box p{
     -o-border-radius: 50%;
     margin-top: -60px;
 }
+
+@media (max-width: 767px){
+    .our-skills .testimonials .content img{
+        margin-top: -20px;
+    }
+}
+
 @media (max-width: 767px){
     .our-skills .testimonials .content{
         flex-direction: column;
@@ -832,6 +839,7 @@ section .serv-box p{
 }
 .pricing .plan {
     text-align: center;
+    background-color: rgb(243, 243, 243);
 }
 .pricing .plan .head{
     padding: 40px 20px;
