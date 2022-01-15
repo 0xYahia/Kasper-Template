@@ -544,13 +544,45 @@ section .serv-box p{
     text-align: center;
 }
 
+@media(max-width: 350px){
+    .video .text{
+        height: 60%;
+        padding: 10px;
+    }
+}
+@media(min-width: 351px) and (max-width: 500px){
+    .video .text{
+        height: 60%;
+        padding: 10px;
+    }
+}
+
 .video .text h2{
     font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+@media(max-width: 350px){
+    .video .text h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+@media(min-width: 351px) and (max-width: 500px){
+    .video .text h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
 .video .text p{
     margin-bottom: 30px;
+}
+
+@media(max-width: 350px){
+    .video .text p{
+        margin-bottom: 15px;
+    }
 }
 .video .text a{
     text-decoration: none;
@@ -559,6 +591,19 @@ section .serv-box p{
     color: white;
     text-transform: uppercase;
     border-radius: 8px;
+}
+
+@media(max-width: 350px){
+    .video .text a{
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+}
+@media(min-width: 351px) and (max-width: 500px){
+    .video .text a{
+        padding: 10px 18px;
+        font-size: 10px;
+    }
 }
 /* End Video section */
 /* Start About */
@@ -839,7 +884,7 @@ section .serv-box p{
 }
 .pricing .plan {
     text-align: center;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(252, 252, 252);
 }
 .pricing .plan .head{
     padding: 40px 20px;
