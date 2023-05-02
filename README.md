@@ -2,7 +2,7 @@
 
 This Template usig HTML & CSS Only
 
-- [live Demo](https://mohamedyahia831.github.io/Kasper-Template/)
+- [live Demo](https://mohamdyahia.github.io/Kasper-Template/)
 - [code](https://github.com/MohamedYahia831/Kasper-Template/blob/main/index.html)
 
 
